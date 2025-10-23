@@ -40,27 +40,48 @@ header {
   cursor: pointer;
 }
 
-/* --- NAV --- */
 nav {
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
 }
 
-nav a {
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* Centra y pone en fila */
+  gap: 40px;            /* Espacio entre enlaces */
+  justify-content: center;
+}
+
+nav ul li a {
   color: white;
-  text-decoration: none;
+  text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
-  text-shadow: 0 0 5px white;
+  text-decoration: none;
+  font-size: 16px;
+  /* Sombra blanca alrededor para el brillo */
+  text-shadow:
+     0 0 5px white,
+     0 0 10px white,
+     0 0 15px white;
   transition: color 0.3s;
 }
 
-nav a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+
+
+/* Opcional: quitar margen/padding del body para que quede centrado */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Para que el fondo negro sea completo */
 }
+
+nav ul li span.navbar-username button:hover {
+  background-color: #d17e0c;
+}
+
 #navbar-username {
     display: inline;
 
