@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cinema</title>
+ <link rel="stylesheet" href="cuenta.css">
+</head>
+<body>
+    <header>
+    <h1 class="main-title">TRAVIS SCOTT</h1>
+    
+  </header>
+
+    <nav>
+    <a href="index.html">HOME</a>
+    <a href="hoodies.html">HOODIES</a>
+    <a href="tshirts.html">T-SHIRTS</a>
+    <a href="albums.html">ALBUMS</a>
+    <a href="cuenta.html">CUENTA</a>
+  </nav>
+
+    <main>
+        <div id="auth-container">
+        <h2 id="form-title">Iniciar Sesión</h2>
+
+        <div id="login-form">
+            <input type="text" id="login-username" placeholder="Usuario">
+            <input type="password" id="login-password" placeholder="Contraseña">
+            <button onclick="login()">Entrar</button>
+            <div class="toggle" onclick="toggleForm()">¿No tienes cuenta? Regístrate</div>
+        </div>
+
+        <div id="register-form" style="display:none;">
+            <input type="text" id="register-username" placeholder="Nuevo usuario">
+            <input type="password" id="register-password" placeholder="Nueva contraseña">
+            <button onclick="register()">Registrar</button>
+            <div class="toggle" onclick="toggleForm()">¿Ya tienes cuenta? Inicia sesión</div>
+        </div>
+    </div>
+    </main>
+
+    <script src="cuenta.js"></script>
+     <footer>
+    <div id="contenedor1">
+      <div id="contenedor3">
+        <p>© Travis Scott - Derechos reservados</p>
+      </div>
+      <div id="contenedor4">
+        <ul>
+          <li><a href="https://share.google/YF4MNZ1RYxZkuBBCk"><img src="https://dreamfoundry.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-background.png" width="70" height="50" alt="Instagram" /></a></li>
+          <li><a href="https://share.google/UqbyU3SiJTBhiYG8w"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" width="70" height="50" alt="Facebook" /></a></li>
+          <li><a href="https://share.google/mvbJr7EtMtJAUNH6q"><img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" width="70" height="50" alt="TikTok" /></a></li>
+          <li><a href="https://share.google/ayyAPhaNaybbjo9B3"><img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/07/twitter_x-logo-freelogovectors.net_.png" width="70" height="50" alt="Twitter" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

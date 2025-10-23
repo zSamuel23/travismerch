@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merch</title>
+  <link rel="stylesheet" href="tshirts.css" />
+</head>
+<body>
+  <header>
+    <h1 class="main-title">TRAVIS SCOTT</h1>
+    <div class="cart">
+      <span></span>
+      <img src="https://images.icon-icons.com/906/PNG/512/shopping-cart_icon-icons.com_69913.png" alt="Cart" />
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="hoodies.html">HOODIES</a>
+    <a href="tshirts.html">T-SHIRTS</a>
+    <a href="albums.html">ALBUMS</a>
+    <a href="cuenta.html">CUENTA</a>
+  </nav>
+
+  <!-- Tarjetas -->
+  <main>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://www.magic-custom.com/13656-large_default/cactus-jack-t-shirt-blanc-cactus-logo-travis-scott.jpg" alt="Cactus Jack World T-Shirt">
+        <div class="card-content">
+          <h3 class="card-title">Cactus Jack</h3>
+          <p class="card-description">Camiseta blanca con diseño frontal y trasero.</p>
+          <button class="add-to-cart" data-producto="Cactus Jack" data-precio="35">
+            Agregar al carrito <br> $35
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.truetosole.hu/cdn/shop/files/TravisScottCactusJackxSp5derDaysBeforeRodeoIIITeeWhite_1200x1200.png?v=1731589751" alt="Travis Scott Rodeo T-Shirt">
+        <div class="card-content">
+          <h3 class="card-title">Rodeo Album Tee</h3>
+          <p class="card-description">Camiseta negra del álbum Rodeo Edición de concierto limitada.</p>
+          <button class="add-to-cart" data-producto="Rodeo Album Tee" data-precio="35">
+            Agregar al carrito <br> $35
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.ebayimg.com/images/g/8T0AAOSwh-dflExJ/s-l1200.jpg" alt="Cactus Jack x Fortnite T-Shirt">
+        <div class="card-content">
+          <h3 class="card-title">Cactus Jack x Fortnite</h3>
+          <p class="card-description">Colaboración con Fortnite. Estilo gamer y urbano.</p>
+          <button class="add-to-cart" data-producto="Cactus Jack x Fortnite" data-precio="35">
+            Agregar al carrito <br> $35
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="reese.PNG" alt="Reese's Puffs x Travis T-Shirt">
+        <div class="card-content">
+          <h3 class="card-title">Reese's Puffs Collab</h3>
+          <p class="card-description">Camiseta naranja brillante, parte de la promoción con Reese's Puffs.</p>
+          <button class="add-to-cart" data-producto="Reese's Puffs Collab" data-precio="35">
+            Agregar al carrito <br> $35
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://jackboys.travisscott.com/cdn/shop/files/JACKBOYS2BOXSETA31_34766688-983c-4ba4-a955-54b6a1c367e8_1500x.png?v=1746060439" alt="Jackboys Cover Tee">
+        <div class="card-content">
+          <h3 class="card-title">Jackboys Cover</h3>
+          <p class="card-description">Gráfica basada en la portada del EP Jackboys.</p>
+          <button class="add-to-cart" data-producto="Jackboys Cover" data-precio="35">
+            Agregar al carrito <br> $35
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://boysdontdraw.com/cdn/shop/products/IMG_2414.png?v=1634185858&width=1946" alt="Highest In The Room T-Shirt">
+        <div class="card-content">
+          <h3 class="card-title">Highest In The Room</h3>
+          <p class="card-description">Camiseta blanca con detalles celestes y gráficos surrealistas.</p>
+          <button class="add-to-cart" data-producto="Highest In The Room" data-precio="35">
+            Agregar al carrito <br> $35
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+ <!-- Carrito -->
+  <div id="modal-carrito" class="modal-carrito">
+    <div class="modal-contenido">
+      <span id="cerrar-modal">&times;</span>
+      <h2>Tu carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <h3>Total: <span id="total-carrito">0₡</span></h3>
+      <button id="vaciar-carrito">Vaciar carrito</button>
+    </div>
+  </div>
+
+  <script src="productos.js"></script>
+
+  
+  <footer>
+    <div id="contenedor1">
+      <div id="contenedor3">
+        <p>© Travis Scott - Derechos reservados</p>
+      </div>
+
+      <div id="contenedor4">
+        <ul>
+          <li><a href="https://share.google/YF4MNZ1RYxZkuBBCk"><img src="https://dreamfoundry.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-background.png" alt="Instagram"></a></li>
+          <li><a href="https://share.google/UqbyU3SiJTBhiYG8w"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="Facebook"></a></li>
+          <li><a href="https://share.google/mvbJr7EtMtJAUNH6q"><img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="TikTok"></a></li>
+          <li><a href="https://share.google/ayyAPhaNaybbjo9B3"><img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/07/twitter_x-logo-freelogovectors.net_.png" alt="Twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merch</title>
+  <link rel="stylesheet" href="albums.css" />
+</head>
+<body>
+  <header>
+
+    <h1 class="main-title">TRAVIS SCOTT</h1>
+    <div class="cart">
+      <span></span>
+      <img src="https://images.icon-icons.com/906/PNG/512/shopping-cart_icon-icons.com_69913.png" alt="Cart" />
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="hoodies.html">HOODIES</a>
+    <a href="tshirts.html">T-SHIRTS</a>
+    <a href="albums.html">ALBUMS</a>
+    <a href="cuenta.html">CUENTA</a>
+  </nav>
+
+  <div class="card-container">
+
+    
+    <div class="card">
+      <div class="card-left">
+        <img src="https://www.therecordhub.com/cdn/shop/files/UTOPIA_2048x.png?v=1725982327" alt="Utopia">
+        <audio controls>
+          <source src="audio1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Utopia</h3>
+        <p class="card-description">Diseño minimalista en negro y detalles en dorado. Perfecto para coleccionistas y fanáticos del rap contemporáneo, captura la esencia única del álbum con sonido de alta fidelidad.</p>
+        <button class="add-to-cart" data-producto="Cactus Jack Hoodie" data-precio="250">
+          Agregar al carrito <br> $250
+        </button>
+      </div>
+    </div>
+
+   
+    <div class="card">
+      <div class="card-left">
+        <img src="https://music.travisscott.com/cdn/shop/files/RODEO_VINYL_2LP_1_1500x.png?v=1757029302" alt="Rodeo">
+        <audio controls>
+          <source src="audio2.mp3" type="audio/mpeg">
+          
+        </audio>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Rodeo</h3>
+        <p class="card-description">Vinilo de 'Rodeo', el álbum debut de Travis Scott. Presenta un diseño icónico inspirado en la portada original, con sonido de alta fidelidad que captura la energía y estilo único del rapero.</p>
+        <button class="add-to-cart" data-producto="Utopia Hoodie" data-precio="250">
+          Agregar al carrito <br> $250
+        </button>
+      </div>
+    </div>
+
+   
+    <div class="card">
+      <div class="card-left">
+        <img src="https://www.therecordhub.com/cdn/shop/products/SCOTTTRAVIASTROWORLD_2019-11-06_13-19-30_bVEF4yD5A5_2048x.png?v=1595512274" alt="Astroworld">
+        <audio controls>
+          <source src="audio3.mp3" type="audio/mpeg">
+   
+        </audio>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Astroworld</h3>
+        <p class="card-description">el icónico tercer álbum de Travis Scott. Con portada colorida y diseño artístico surrealista, ofrece una experiencia sonora envolvente y de alta fidelidad para los fanáticos del rap contemporáneo.</p>
+        <button class="add-to-cart" data-producto="Nike x Cactus Jack Hoodie" data-precio="250">
+          Agregar al carrito <br> $250
+        </button>
+      </div>
+    </div>
+
+   
+    <div class="card">
+      <div class="card-left">
+        <img src="https://www.therecordhub.com/cdn/shop/files/BirdsInTheTrapSingMcKnight_2048x.png?v=1726569290" alt="BirdsInTheTrapSingMcKnight">
+        <audio controls>
+          <source src="audio4.mp3" type="audio/mpeg">
+   
+        </audio>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Birds In The Trap SingMcKnight</h3>
+        <p class="card-description">Vinilo de 'Birds in the Trap Sing McKnight', el segundo álbum de Travis Scott. Con un diseño elegante y minimalista, ofrece sonido de alta fidelidad y captura la atmósfera única del álbum.</p>
+        <button class="add-to-cart" data-producto="Astroworld Hoodie" data-precio="250">
+          Agregar al carrito <br> $250
+        </button>
+      </div>
+    </div>
+
+  
+    <div class="card">
+      <div class="card-left">
+        <img src="https://music.travisscott.com/cdn/shop/files/JACKBOYS2VINYL1_BOLTCOVER_1_1500x.png?v=1751900715" alt="Jackboys2">
+        <audio controls>
+          <source src="audio5.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Jackboys 2</h3>
+        <p class="card-description">la continuación de la colaboración colectiva de Travis Scott y su sello Cactus Jack. Presenta un diseño moderno y audaz, con sonido de alta fidelidad que refleja la energía del grupo y su estilo urbano.</p>
+        <button class="add-to-cart" data-producto="Cactus Jack Houston" data-precio="250">
+          Agregar al carrito <br> $250
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="modal-carrito" class="modal-carrito">
+    <div class="modal-contenido">
+      <span id="cerrar-modal">&times;</span>
+      <h2>Tu carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <h3>Total: <span id="total-carrito">0₡</span></h3>
+      <button id="vaciar-carrito">Vaciar carrito</button>
+    </div>
+  </div>
+
+  <script src="productos.js"></script>
+  <footer>
+    <div id="contenedor1">
+      <div id="contenedor2">
+      </div>
+      <div id="contenedor3">
+        <pre>©Travis scott derechos reservados</pre>
+
+      </div>
+      <div id="contenedor4">
+        <ul>
+          <a href="https://share.google/YF4MNZ1RYxZkuBBCk"><li><img src="https://dreamfoundry.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-background.png" width="70" height="50"alt="Instagram" /></li></a>
+          <a href="https://share.google/UqbyU3SiJTBhiYG8w"><li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png"width="70" height="50" alt="Facebook" /></li></a>
+          <a href="https://share.google/mvbJr7EtMtJAUNH6q"><li><img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" width="70" height="50" alt="TikTok" /></li></a>
+         <a href="https://share.google/ayyAPhaNaybbjo9B3"> <li><img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/07/twitter_x-logo-freelogovectors.net_.png" width="70" height="50" alt="Twitter" /></li></a>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merch - T-Shirts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 class="main-title">TRAVIS SCOTT</h1>
+    <div class="cart">
+      <span></span>
+      <img src="https://images.icon-icons.com/906/PNG/512/shopping-cart_icon-icons.com_69913.png" alt="Cart" />
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="hoodies.html">HOODIES</a>
+    <a href="tshirts.html">T-SHIRTS</a>
+    <a href="albums.html">ALBUMS</a>
+    <a href="cuenta.html">CUENTA</a>
+     <li><span class="navbar-username" id="navbar-username">#</span>
+    <button onclick="logout()">Cerrar sesión</button></li>
+  </nav>
+
+  <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.magic-custom.com/18230-large_default/black-unisex-tee-shirt-utopia-ii-travis-scott.jpg" class="ImgCarru" alt="tshirt" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://fmagnetclothing.com/cdn/shop/files/front-png.png?v=1730437881&width=4000" class="ImgCarru" alt="hoodie" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://travisscott.rosecityworks.com/cdn/shop/files/Travis-Scott-Utopia-CD-1500.png?v=1698377013" class="ImgCarru" alt="album" />
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </main>
+
+  <div id="modal-carrito" class="modal-carrito">
+    <div class="modal-contenido">
+      <span id="cerrar-modal">&times;</span>
+      <h2> Tu carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <h3>Total: <span id="total-carrito">0₡</span></h3>
+    </div>
+  </div>
+
+  <footer>
+    <div id="contenedor1">
+      <div id="contenedor2"></div>
+      <div id="contenedor3">
+        <p>© Travis Scott - Derechos reservados</p>
+      </div>
+      <div id="contenedor4">
+        <ul>
+          <li><a href="https://share.google/YF4MNZ1RYxZkuBBCk"><img src="https://dreamfoundry.org/wp-content/uploads/2018/12/instagram-logo-png-transparent-background.png" alt="Instagram" /></a></li>
+          <li><a href="https://share.google/UqbyU3SiJTBhiYG8w"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="Facebook" /></a></li>
+          <li><a href="https://share.google/mvbJr7EtMtJAUNH6q"><img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="TikTok" /></a></li>
+          <li><a href="https://share.google/ayyAPhaNaybbjo9B3"><img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/07/twitter_x-logo-freelogovectors.net_.png" alt="Twitter" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="carrito.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
