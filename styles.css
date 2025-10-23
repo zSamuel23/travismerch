@@ -65,6 +65,9 @@ nav a:hover {
     display: inline;
 
 }
+nav li a {
+  display: flex;
+}
 .navbar-username {
   color: white;
   text-decoration: none;
